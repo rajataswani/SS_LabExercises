@@ -29,7 +29,7 @@ int main()
     close(STDIN_FILENO);
     close(STDOUT_FILENO);
     close(STDERR_FILENO);
-    printf("Daemon Process must have been created successfully");
+    // printf("Daemon Process must have been created successfully");
     while (1)
     {
         now = time(NULL);
